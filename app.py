@@ -1,3 +1,5 @@
+pip install google-api-python-client nltk wordcloud matplotlib streamlit pandas
+
 import streamlit as st
 from googleapiclient.discovery import build
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
