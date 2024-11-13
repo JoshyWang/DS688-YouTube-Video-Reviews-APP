@@ -20,7 +20,7 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
 analyzer = SentimentIntensityAnalyzer()
-API_KEY = 'YOUR_API_KEY'  # Replace with your YouTube API key
+API_KEY = 'AIzaSyDNd-_-13SkXq8Uzo1zyErK89BVG_GCQE4'  # Replace with your YouTube API key
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # Helper functions for sentiment analysis, lemmatization, etc.
