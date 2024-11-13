@@ -1,0 +1,6 @@
+google-api-python-client
+nltk
+wordcloud
+matplotlib
+streamlit
+pandas
