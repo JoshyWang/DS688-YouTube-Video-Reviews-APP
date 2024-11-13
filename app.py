@@ -138,7 +138,7 @@ if st.sidebar.button("Analyze"):
         st.write(f"https://www.youtube.com/watch?v={best_video['video_id']}")
         
         # Generate word cloud
-        preprocessed_comments = process_comments(best_video['comments'])
-        generate_word_cloud(preprocessed_comments)
+        #preprocessed_comments = process_comments(best_video['comments'])
+        #generate_word_cloud(preprocessed_comments)
     else:
         st.write("No videos found for the given parameters.")
