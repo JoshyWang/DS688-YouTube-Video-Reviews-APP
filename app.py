@@ -12,6 +12,12 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from datetime import datetime
 
+# Download the necessary NLTK resources
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+
 # Initialize VADER and YouTube API
 nltk.download('vader_lexicon')
 nltk.download('stopwords')
