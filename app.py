@@ -92,7 +92,7 @@ def analyze_sentiment(comments):
     return scores['compound']
 
 # Streamlit app starts here
-st.title("YouTube Video Analysis App")
+st.title("YouTube Video Search App")
 
 st.sidebar.header("Enter Search Parameters")
 start_date = st.sidebar.date_input("Start Date", datetime.now().replace(day=1))
